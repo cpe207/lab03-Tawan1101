@@ -1,0 +1,273 @@
+
+
+:any-link{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+h1 {   
+    color: rgb(255, 255, 255);
+}
+p{  
+    font-size: 15px;
+    font-family: Reggae One;
+    color: rgb(255, 255, 255);
+}
+
+
+
+h3{ 
+    font-size:50px ;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 254, 254);
+}
+
+
+.center-header {
+    color: rgb(54, 255, 4);
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-family: Reggae One;
+  }
+
+  .center-right {
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-family: Reggae One;
+  }
+  
+  .skill-container {
+    border: solid rgb(0, 214, 207);
+    width: 600px;
+    margin-left: 160;
+    margin-right: auto;
+    padding: 1rem;
+    margin-bottom: 6px;
+  }
+
+  .skill-container1 {
+    text-align: left;
+    margin-left:400px ;
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    height: 190px;
+    width: 1000px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.skill-container1 h3 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skill-container1 p {
+    color: #3c3a3a;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Reggae One;
+}
+
+  
+
+  .top-bar {
+    height: 70px;
+    background-color: #000000;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 6px 8px rgba(50, 48, 48, 0.8);
+  }
+
+
+  .top-bar1 {
+    height: 100px;
+    background-color: #ead3d3;
+    top: 0;
+    width: 100%;
+    z-index: 150;
+    box-shadow: 0 6px 8px rgba(50, 48, 48, 0.8);
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .popup-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  .animated-text {
+      font-size: 100px;
+      margin-left: 100px;
+      text-align: right;
+      position: unset;
+      animation: slideLeftRight 4s linear infinite alternate;
+      animation: slideLeftRight 4s  infinite alternate;
+  }
+
+  @keyframes slideLeftRight {
+      0% {
+          transform: translateX(-100);
+      }
+      100% {
+          transform: translateX(100px);
+      }
+  }
+
+
+
+ .bounce-text {
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bounce-text:hover {
+  
+  animation: bounce 0.5s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 25px;
+}
+
+nav ul li a {
+  
+  
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  font-size: 1.8rem;
+}
+
+nav ul li a:hover {
+  color: #ff001e;
+}
+
+nav ul li a:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  left: 0;
+  bottom: -5px;
+}
+
+.img555 {
+  max-width: 30%;
+  height: auto;
+  display: ruby-base;
+  margin: 1px auto;
+  border-radius: 1500px;
+  box-shadow: 0 0 90px rgba(60, 13, 13, 0.8);
+}
+
+.image-container {
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 70px;
+}
+
+.moving-image {
+  width: 280px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.moving-image:hover {
+  animation: moveUp 0.5s forwards;
+}
+
+@keyframes moveUp {
+  0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(-50px); 
+  }
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.moving-image {
+  width: 350px;
+  margin-right: 50px; 
+}
+
+.text-container {
+  flex: 1; 
+}
+
+.skill-container {
+  margin-top: 20px; 
+}
+
+.top-bar1 {
+  margin-top: 20px; 
+}
+
+
+
